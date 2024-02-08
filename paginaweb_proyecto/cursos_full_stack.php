@@ -27,7 +27,7 @@ $id_cliente = $_SESSION['usuario_id'];
 echo "ID del cliente: " . $id_cliente . "<br>";
 
 // Consulta para obtener los cursos del cliente
-$sql = "select * from cursos where Tipo_de_curso = 'Full-Stack'";
+$sql = "select * from cursos where Tipo_de_curso = 'Full_Stack'";
 //$sql = "SELECT c.Id, c.Nombre, c.Tipo_de_curso, c.Precio
   //      FROM cursos c
     //    INNER JOIN usuario u ON c.Id = u.Id
